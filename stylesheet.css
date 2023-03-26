@@ -72,6 +72,11 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position: fixed;
+  top: 0;
+  /* z-indexを10に指定してください */
+  z-index: 10;
 }
 
 .logo {
@@ -157,8 +162,21 @@ header {
   box-shadow: 0 7px #1a7940;
 }
 
-.message:active{
-  box-shadow:none;
-  position:relative;
-  top:7px;
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
 }
