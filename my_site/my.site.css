@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  width: 1024px;
+  width: 100%;
+  background-color: #EC715F;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+nav{
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+   margin:   30px;
+   font-size: 16px;
+   color:#FAFAFA;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-image: url(img/mv.png);
+}
+
+.main-visual-name{
+  text-align: center;
+  padding:200px 10px 0px 0px;
+  font-size: 64px;
+  color:#FAFAFA;
+}
+
+.main-visual-text{
+  text-align: center;
+  font-size: 20px;
+  color:#FAFAFA;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-title{
+  margin-top: 90px;
+  padding-bottom: 8px;
+  font-size: 32px;
+  color:#000000;
+}
+
+.under{
+  color:#EC715F;
+  height: 3px;
+  width: 70px;
+}
+.img1{
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image:url(img/sketch.jpg);
+  background-repeat:no-repeat;
+  background-size: 300px 250px;
+}
+.img2{
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+  background-image:url(img/talk.jpg);
+  background-repeat:no-repeat;
+  background-size: 300px 250px;
+}
+.img3{
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-image:url(img/webcamp-mother.png);
+  background-repeat:no-repeat;
+  background-size: 300px 250px;
+}
+.img4{
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  background-image:url(img/webcamp.png);
+  background-repeat:no-repeat;
+  background-size: 300px 250px;
+}
+.img5{
+  width: 300px;
+  height: 250px;
+  background-image:url(img/websuku.png);
+  background-repeat:no-repeat;
+  background-size: 300px 250px;
+}
+.img6{
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  background-image:url(img/write.jpg);
+  background-repeat:no-repeat;
+  background-size: 300px 250px;
+}
+
+.blog {
+  width: 600px;
+  height: 1400px;
+}
+
+.sidebar {
+  width: 240px;
+  height: 1400px;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+}
