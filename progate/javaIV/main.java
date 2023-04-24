@@ -1,11 +1,9 @@
 class Main {
   public static void main(String[] args) {
-    // newの引数に「Kate Jones」を渡してください
-    Person person1 = new Person("Kate Jones");
-    person1.hello();
-    
-    // newの引数に「John Christopher Smith」を渡してください
-    Person person2 = new Person("John Christopher Smith");
-    person2.hello();
+    Person person1 = new Person("Kate", "Jones", 27, 1.6, 50.0);
+    person1.printData();
+    Person person2 = new Person("John", "Christopher", "Smith", 65, 1.75, 80.0);
+    person2.printData();
+    Person.printCount();
   }
 }
