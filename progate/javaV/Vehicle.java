@@ -1,7 +1,13 @@
-class Vehicle {
+// Vehicleクラスを抽象クラスに変更してください
+abstract class Vehicle {
   private String name;
   private String color;
-  private int distance = 0;
+  protected int distance = 0;
+
+  Vehicle(String name, String color) {
+    this.name = name;
+    this.color = color;
+  }
 
   public String getName() {
     return this.name;
@@ -23,4 +29,8 @@ class Vehicle {
     System.out.println("色：" + this.color);
     System.out.println("走行距離：" + this.distance + "km");
   }
+  
+  // 抽象メソッドrunを定義してください
+  public abstract void run(int distance);
+  
 }
