@@ -39,4 +39,3 @@ class Car extends Vehicle {
     System.out.println("ガソリン量：" + this.fuel + "L");
   }
 }
-
