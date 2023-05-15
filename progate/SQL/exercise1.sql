@@ -1,3 +1,3 @@
 SELECT *
 FROM purchases
-LIMIT 5;
+WHERE name LIKE "%プリン%";
